@@ -7,9 +7,7 @@
   <p>Welcome!!</p>
   <p>The page you are viewing requires JavaScript to function. If you have intentionally disabled it, please re-enable it..</p>
 </noscript>
-<script type="text/javascript">
-  alert("prueba");
-</script>
+
 </head>
 <body>
 <p>Aspects about the objectives of teaching English in this basic manual:</p>
@@ -19,4 +17,35 @@
 <p>- Be adapted to the level and personal needs.</p>
 <p>- Starting from familiar environments and then gradually dealing with more complex topics.</p>
 </body>
+  
+  <script type="text/javascript">
+  alert("pruebas javascript");
+  
+var formularioPruebal = document.getElementById("formulario");
+var primerElemento = document.getElementById("elemento");
+<form name="formulario" id="formulario" >
+  <input type="text" name="elemento" id="elemento" />
+</form>
+  
+<input type="text" id="texto" />
+var valor = document.getElementById("texto").value;
+<textarea id="parrafo"></textarea>
+var valor = document.getElementById("parrafo").value;
+<input type="radio" value="si" name="pregunta" id="pregunta_si"/> SI
+<input type="radio" value="no" name="pregunta" id="pregunta_no"/> NO
+<input type="radio" value="nsnc" name="pregunta" id="pregunta_nsnc"/> NS/NC
+<input type="checkbox" value="condiciones" name="condiciones" id="condiciones"/> He leído y acepto las condiciones
+<input type="checkbox" value="privacidad" name="privacidad" id="privacidad"/> He leído la política de privacidad
+var elemento = document.getElementById("condiciones");
+alert(" Elemento: " + elemento.value + "\n Seleccionado: " + elemento.checked);
+
+elemento = document.getElementById("privacidad");
+alert(" Elemento: " + elemento.value + "\n Seleccionado: " + elemento.checked);
+  <select id="opciones" name="opciones">
+  <option value="1">Primer valor</option>
+  <option value="2">Segundo valor</option>
+  <option value="3">Tercer valor</option>
+  <option value="4">Cuarto valor</option>
+</select>
+</script>
 </html>
